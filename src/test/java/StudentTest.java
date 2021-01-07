@@ -1,8 +1,8 @@
 import org.junit.Test;
+import static org.junit.Assert.*;
 
 import java.util.ArrayList;
 
-import static org.junit.Assert.*;
 
 public class StudentTest {
     @Test
@@ -32,7 +32,7 @@ public class StudentTest {
     }
 
     @Test
-    public void testAverageGrade(){
+    public void getGradeAverage(){
         Student fer = new Student(1L, "fer");
         fer.addGrade(100);
         fer.addGrade(80);
